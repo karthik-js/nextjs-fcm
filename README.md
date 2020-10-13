@@ -2,22 +2,22 @@
 
 To demo how to implement firebase cloud messaging to send web push notification in next.js.
 
-## How to use
+I have used example from next js git repo with-firebase-cloud-messaging
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+# How to use
 
-```bash
-npx create-next-app --example with-firebase-cloud-messaging with-firebase-cloud-messaging-app
-# or
-yarn create next-app --example with-firebase-cloud-messaging with-firebase-cloud-messaging-app
-```
+### Install dependencies
 
-## Set your send id
+npm install
 
-set your `messagingSenderId` in `static/firebase-messaging-sw.js` and `utils/webPush.js`
+### Run the project in dev mode
 
-Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+npm run dev
 
-## How to send a notification
+### Build the project
 
-https://firebase.google.com/docs/cloud-messaging/js/first-message,
+npm run build
+
+### Run the project in production mode
+
+npm run start
