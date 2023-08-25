@@ -9,7 +9,7 @@
   "dependencies": {
     "cross-env": "^7.0.2",
     "express": "^4.14.0",
-    "firebase": "^7.6.2",
+    "firebase": "^7.24.0",
     "localforage": "^1.7.3",
     "next": "latest",
     "react": "^16.7.0",
