@@ -12,8 +12,8 @@
     "firebase": "^7.6.2",
     "localforage": "^1.7.3",
     "next": "latest",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "next-offline": "^3.0.10"
